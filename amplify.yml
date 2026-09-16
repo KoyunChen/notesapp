@@ -10,7 +10,6 @@ frontend:
         - npm ci
     build:
       commands:
-        - npm install
         - npm run build
   artifacts:
     baseDirectory: .next # or 'dist', 'build', etc., depending on your framework
